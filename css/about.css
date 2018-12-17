@@ -1,21 +1,37 @@
 #tex 
 {
-       text-align:center;
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    
+       text-align:left;
+       display: block;
+       margin-block-start: 1em;
+       margin-block-end: 1em;
+       margin-inline-start: 0px;
+       margin-inline-end: 0px;
+       color: rgb(52, 56, 59);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#cover h3{
+    color: rgb(186, 200, 209);
+    font-size: 32px;
+    text-align: center;
+}
+#cover p{
+    font-size: 42px;
+    color:rgb(52, 56, 59);
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5;
     
 }
-#tex1 p, li
-{ 
+
+
+#tex1  p,li
+{  text-align:left;
     display: block;
-    text-align: center;
+   
     margin-bottom: 8px;
-
-
+    color: rgb(52, 56, 59);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 .flex-container{
     display:flex;
@@ -47,9 +63,17 @@
  #people img
  {  width: 200px;
     height: 200px;
-    
+   padding-right: 10px;
  }
- #people keyp{
-     float: right;
- } 
-
+ 
+ 
+#people 
+{
+padding-left: 10%;
+text-align:auto;
+color: rgb(52, 56, 59);
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#people h3{
+    text-align: center;
+}
