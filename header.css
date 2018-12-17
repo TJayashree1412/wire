@@ -1,0 +1,13 @@
+#head{
+    
+    height: 128px;
+} 
+
+.navbar-header{
+    padding-right: 300px;
+    padding-left: 150px;
+}
+.nav navbar-nav a
+{
+    text-transform: uppercase;
+}
