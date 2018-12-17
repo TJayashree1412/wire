@@ -1,0 +1,55 @@
+
+.col a{
+    
+    text-decoration: none;    
+    color: rgb(79, 83, 87);
+    font-size: 12px;
+}
+.col li{
+    list-style-type: none;
+}
+
+ .language ul>li, .currency ul>li
+ {
+    display: inline;
+ }
+ .language li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(79, 83, 87);
+    font-size: 12px;
+    list-style-type:none;
+   text-align: center;
+ }
+ .language ul a{
+     text-decoration: none;
+     text-transform: uppercase;
+     display: inline;
+     color: rgb(79, 83, 87);
+     font-size: 12px;
+ }
+ .currency li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(79, 83, 87);
+    font-size: 12px;
+    list-style-type:none;
+    text-align: center;
+ }
+ .currency ul a{
+     text-decoration: none;
+     text-transform: uppercase;
+     display: inline;
+     list-style-type:none;
+     color: rgb(79, 83, 87);
+     font-size: 12px;
+ }
+ .icon a{
+     text-decoration: none;
+     color: black;
+     padding-right: 10%;
+ }
+ .copy p{
+    text-align: center;
+ }
+ 
