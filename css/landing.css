@@ -1,0 +1,145 @@
+body
+{
+    overflow-x: hidden;
+}
+
+#landingHeading>h1
+{
+    font-size: 72px;
+    max-width: 919px;
+}
+
+#landingHeading>p
+{
+    font-size: 24px;
+    max-width: 640px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 640px) 
+{
+    #landingHeading>h1
+    {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 460px) 
+{
+    #landingHeading>p
+    {
+        font-size: 20px;
+    }
+}
+
+.landingGetStarted>button
+{
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+}
+
+.landingGetStarted>p
+{
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(52, 56, 59);
+    opacity: 0.6;
+}
+
+#instantProductivity>h2, #security>h2, #secureExternal>h2, #whyWire>h2
+{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 650px) 
+{
+    #instantProductivity>h2, #security>h2, #secureExternal>h2, #whyWire>h2
+    {
+        font-size: 28px;
+    }
+}
+
+#instantProductivity>p, #security>p, #secureExternal>p
+{
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 650px;
+}
+
+@media screen and (max-width: 650px) 
+{
+    #instantProductivity>p, #security>p, #secureExternal>p
+    {
+        font-size: 20px;
+    }
+}
+
+
+#subscription .nav-tabs .nav-item.show .nav-link, 
+#subscription .nav-tabs .nav-link
+{
+    border: none;   
+}
+
+#subscription .nav-tabs .nav-item.show .nav-link, 
+#subscription .nav-tabs .nav-link.active
+{
+    border-bottom: solid 2px rgb(35, 145, 211);
+}
+
+#subscription .nav-item>a:hover
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+#subscription>ul
+{
+    text-align:center;
+    justify-content: center;
+}
+
+#myTabContent>.tab-pane>ul>li
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#myTabContent>.tab-pane
+{
+    max-width: 640px;
+    justify-content: center;
+    font-weight: 300;
+}
+
+#myTabContent>.tab-pane>button
+{
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+}
+
+.greenButton
+{
+    background-color: rgb(0, 200, 0);
+}
+
+#whyWiew .jumbotron>p
+{
+    font-weight: 300;
+}
+
+.myJumbo
+{
+    height: 430px;
+}
+
+#media
+{
+    width: 100%;
+    margin: 0px;
+}
