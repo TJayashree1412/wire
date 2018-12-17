@@ -1,0 +1,51 @@
+#landingHeading
+{
+    
+}
+
+#landingHeadingContent
+{
+    font-size: 72px;
+    max-width: 919px;
+}
+
+#landingHeadingSubContent
+{
+    font-size: 24px;
+    max-width: 640px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 640px) 
+{
+    #landingHeadingContent
+    {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 460px) 
+{
+    #landingHeadingSubContent
+    {
+        font-size: 20px;
+    }
+}
+
+#landingGetStarted>button
+{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4EC418;
+    border: none;
+    border-radius: 8px;
+}
+
+#landingGetStartedSubContent
+{
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(52, 56, 59);
+    opacity: 0.6;
+}
