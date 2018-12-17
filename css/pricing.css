@@ -1,0 +1,19 @@
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow-x: hidden;    
+}
+
+/* cover */
+#cover{
+    background-size: cover;
+    color: grey;
+    height: auto;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+}
+#cover-caption{
+    width: 100%;
+}
