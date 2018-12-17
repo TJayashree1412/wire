@@ -21,12 +21,88 @@
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">   -->
     </head>
     <body>
-        <main class="text-center">
-            <div font-size=32px class="wireRed text-capitalize">Wire Red</div>
-            <h1 color="rgb(52, 56, 59)" class="info text-center">The secure way to communicate in a crisis.</h1>
-            <a backgroundcolor="#00c800" href="" font-size="16px" class="form text-uppercase">Speak to Sales</a>
-            <p>Plan and launch a 30-day Proof of Concept to test your crisis readiness.</p>
+        <main style="float: left;">
+            <div font-size=32px class="wireRed text-capitalize">Contact us</div>
+            <h1 color="rgb(52, 56, 59)" class="info text-center">Wire Red enquires</h1>
+            <form action="ThankyouWireRed.html" target="_self" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51); display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            padding: 32px;
+            width: 100%!;
+            background-color: hsla(0,0%,80%,.39);
+            border-radius: 8px;
+            font-family: inherit;">
+                First name<br>
+                <input type="text" name="firstname" value="ALEX">
+                <br>
+                Last name<br>
+                <input type="text" name="lastname" value="ROXAS">
+                <br>
+                Work email<br>
+                <input type="email" name="email" value="YOU@COMPANY.COM">
+                <br>
+                Company name<br>
+                <input type="text" name="companyname" value="ACME CORPORATION">
+                <br>
+                Phone number (optional)<br>
+                <input type="number" name="number" length="10" value="+1-234-567-8910">
+                <br>
+                Questions or requirements<br>
+                <input type="textarea" name="Questions" value="ADD YOUR QUESTIONS OR HIGH LEVEL REQUIREMENTS HERE">
+                <br>
+                Organization size<br>
+                <select name="cars">
+                        <option value="select...">Select...</option>
+                        <option value="1-10">1-10</option>
+                        <option value="11-50">11-50</option>
+                        <option value="51-250">51-250</option>
+                        <option value="251-1K">251-1K</option>
+                        <option value="1K-5K">1K-5K</option>
+                        <option value="1K-5K">1K-5K</option>
+                        <option value="10K-50K">10K-50K</option>
+                        <option value="50K-100K">50K-100K</option>
+                        <option value="100K+">100K+</option>
+                      </select>
+                <br>
+                <input type="checkbox" name="checkbox" value="Data"> I want to receive news and product updates from Wire via email.
+                You can unsubscribe at any time.<br>
+                <br>
+                <input type="submit" value="contact sales" style="background-color: #00c800; background-image: none;
+                border-radius: 8px;
+                border: 0;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                height: 48px;
+                line-height: 48px;
+                margin-bottom: 16px;
+                margin-top: 16px;
+                max-width: 100%;
+                min-width: 150px;
+                padding: 0 32px;
+                text-overflow: ellipsis;
+                text-transform: uppercase;">
+              </form>         
         </main>
+        <aside style="float:right;">
+                <img src="../img/contact-img.png" alt="Contact-img" class="contact-img">
+                <h2 style="text-align:left" color="rgb(52, 56, 59)" >Speak to Sales</h2>
+                <p><a href="../wireRed.html">Wire Red</a> guarantees business communication continuity and fast recovery when your network is compromised or unavailable.</p>
+                <p>It offers encrypted text messaging, voice and video calls, and file sharing to cover all <a href="../html/blog.html">crisis communication</a> scenarios.</p>
+                <ul>
+                        <li>Pre-provisioned and ready on demand</li>
+                        <li>As secure as it gets with end-to-end encryption</li>
+                        <li>Cloud-based and enterprise-ready</li>
+                </ul>
+        </aside>
+        <div style="">
+            <p>A member of our team will be in touch shortly.</p>
+            <p><em>See our <a href="https://wire.com/en/legal/#privacy">Privacy Policy</a> for details on how we protect your personal data.</em></p>
+        </div> 
     </body>
+    <script src="../js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
 
 </html>
