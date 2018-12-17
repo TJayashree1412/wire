@@ -1,0 +1,29 @@
+.wireRed
+{
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgb(186, 200, 209);
+}
+.info{
+    color: rgb(52, 56, 59);
+    opacity: 1;
+    text-transform: none;
+    display: block;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px;
+    margin-bottom: 64px;
+    margin-top: 0px;
+    min-height: 48px;
+    text-align: center;
+}
+@media (max-width: 480px){
+.bzPLOM {
+    font-size: 40px;
+    line-height: 48px;
+}
+}
