@@ -1,4 +1,7 @@
-
+.container{
+    box-align: center;
+    overflow-x: hidden;
+}
 .wireRed
 {
     font-size: 32px;
@@ -55,4 +58,15 @@
     transition: all 0.24s ease 0s;
     outline: none;
     padding: 0px 32px;
+}
+.secure img{
+    width: 60%;
+    height: 60%;
+}
+.download
+{
+    align-self: start; 
+    margin-bottom: 16px; 
+    max-height: 48px; 
+    max-width: 100%;"
 }
