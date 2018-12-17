@@ -52,4 +52,9 @@
  .copy p{
     text-align: center;
  }
+
+ footer
+ {
+     border-top: solid 1px gray;
+}
  
