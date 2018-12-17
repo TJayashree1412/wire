@@ -1,5 +1,46 @@
-.logi
+#tex 
 {
-   height: 50px;
-   width: 50px;
+       text-align:center;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
+    
 }
+#tex1 p, li
+{ 
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+
+
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+ }
+ .box1{
+   flex-grow:1;
+   width: 25%;
+   background-color:white;
+ }
+ .box2{
+   flex-grow:4;
+   width: 50%;
+   margin-left: 10px;
+   margin-right: 10px;
+   background-color:white;
+ }
+ .box3{
+   flex-grow:1;
+   width: 25%;
+   background-color: white;
+ }
+ .flex-container >section{
+    flex-basis: auto;
+ }
