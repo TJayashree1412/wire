@@ -147,26 +147,41 @@ ul li
     border: none;
 }
 .formfill{
-    display: flex;
-    flex-direction: column;
     padding: 32px;
     margin-right: 32px;
     float: left;
+    width: 100%;
+    min-width: 100%;
     background-color: hsla(0,0%,80%,.39);
     border-radius: 8px;
     font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
 }
 input{
     padding: 16px;
     margin: 8px 0;
     line-height: 16px;
+    width: 100%;
     border: 1px solid transparent;
     font-size: 14px;
     border-radius: 4px;
     box-shadow: none;
+    cursor: text;
+    display: inline-block;
+    text-align: start;
 }
 .extra
 {
     height: 100%;
-    margin-left: 20%;
+    margin-left: 10%;
+}
+.member p
+{
+    width: 50%;
+
+}
+.contactus
+{
+    margin-top: 10%;
 }

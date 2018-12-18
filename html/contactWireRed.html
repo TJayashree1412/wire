@@ -26,7 +26,7 @@
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">   -->
 </head>
 
-<body class="container mt-5">
+<body class="container">
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container-fluid navbar-container">
@@ -67,10 +67,13 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div font-size=32px class="wireRed text-capitalize">Contact us</div>
+    <main class="contactus">
+        <div font-size=32px class="wireRed ">Contact us</div>
 
         <p color="rgb(52, 56, 59)" class="info text-center">Wire Red enquires</p>
+    </main>
+    <div class="row">
+        <div class="col-md-8 ">
         <form action="ThankyouWireRed.html" target="_self" class="formfill">
             First name<br>
             <input type="text" name="firstname" value="ALEX">
@@ -104,34 +107,36 @@
                 <option value="100K+">100K+</option>
             </select>
             <br>
-            <input type="checkbox" name="checkbox" value="Data"> I want to receive news and product updates from Wire
+            <input type="checkbox" name="checkbox" value="Data" style="width: auto;"> I want to receive news and product updates from Wire
             via email.<br>
             You can unsubscribe at any time.<br>
             <br>
             <input type="submit" value="contact sales" style="background-color: #00c800; background-image: none;
-                border-radius: 8px;
-                border: 0;
-                color: #fff;
-                font-size: 16px;
-                font-weight: 600;
-                height: 48px;
-                line-height: 48px;
-                margin-bottom: 16px;
-                margin-top: 16px;
-                max-width: 200px;
-                min-width: 150px;
-                margin-left:auto;
-                margin-right: auto; 
-                padding: 0 32px;
-                text-overflow: ellipsis;
-                text-transform: uppercase;">
+                            border-radius: 8px;
+                            border: 0;
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: 600;
+                            height: 48px;
+                            line-height: 48px;
+                            margin-bottom: 16px;
+                            margin-top: 16px;
+                            max-width: 200px;
+                            min-width: 150px;
+                            margin-left:30%;
+                            padding: 0 32px;
+                            text-overflow: ellipsis;
+                            text-transform: uppercase;">
         </form>
-    </main>
+    </div>
 
 
-    <div class="extra">
-        <figure><img src="../img/contact-img.png" alt="Contact-img" class="contact-img" height="5%" width="5%"></figure>
-        <h2 style="text-align:left" color="rgb(52, 56, 59)">Speak to Sales</h2>
+
+
+
+    <div class="col-md-3 m-4" >
+        <figure><img src="../img/contact-img.png" alt="Contact-img" class="contact-img" height="10%" width="10%"></figure>
+        <h4 class="hh4" style="text-align:left" color="rgb(52, 56, 59)">Speak to Sales</h4>
         <p><a href="../wireRed.html">Wire Red</a> guarantees business communication continuity and fast recovery when
             your network is compromised or unavailable.</p>
         <p>It offers encrypted text messaging, voice and video calls, and file sharing to cover all <a href="../html/blog.html">crisis
@@ -142,9 +147,10 @@
             <li>Cloud-based and enterprise-ready</li>
         </ul>
     </div>
+    </div>
 
 
-    <section>
+    <section class="member text-center m-5">
         <p>A member of our team will be in touch shortly.</p>
         <p><em>See our <a href="https://wire.com/en/legal/#privacy">Privacy Policy</a> for details on how we protect
                 your personal data.</em></p>
